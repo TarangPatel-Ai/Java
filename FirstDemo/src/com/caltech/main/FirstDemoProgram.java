@@ -14,7 +14,9 @@ public class FirstDemoProgram {
 		//How to create an object
 								 //constructor
 		BaseLogic  baseobj = new BaseLogic();
-		System.out.println("the value of c is: " + baseobj.c);
+		baseobj.b = 50;
+		baseobj.Display();
+		System.out.println("the value of c is: " + (baseobj.a + baseobj.b));
 	
 		Person personobj = new Person();
 		personobj.salary = 75000; // Here this is the data manipulation so now you can check the output of salary is 75000
