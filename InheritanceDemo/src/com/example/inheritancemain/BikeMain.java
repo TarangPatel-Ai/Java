@@ -1,12 +1,13 @@
 package com.example.inheritancemain;
 
 import com.example.inheritance.Mestro;
+import com.example.inheritance.NewMestro;
 
 public class BikeMain {
 
 	public static void main(String[] args) {
-		Mestro ms = new Mestro();
-		ms.speedofMestro();
+		NewMestro newmestro = new NewMestro();
+		newmestro.speedofMestro();
 		
 	}
 
