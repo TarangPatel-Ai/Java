@@ -1,6 +1,6 @@
 package com.abstraction.logic;
 
-public class Operation_Implimentation extends CalculatorOperation{
+public class Operation_Implimentation implements CalculatorOperation, CalculatorOperation1{
 
 	@Override
 	public String sum(int value1, int value2) {
